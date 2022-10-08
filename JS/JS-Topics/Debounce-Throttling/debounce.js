@@ -16,6 +16,7 @@ const deBounce = (func, delay) => {
 		}, delay);
 	};
 };
+
 // Api call is only made after 300ms
 const betterApiCall = deBounce(apiCall, 300);
 
